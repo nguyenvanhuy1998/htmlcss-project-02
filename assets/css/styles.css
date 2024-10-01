@@ -433,9 +433,15 @@ a {
     background: #2E2100;
     padding: 96px 0;
 }
+.list-feedback {
+    display: flex;
+    overflow: hidden;
+}
 
 .feedback-item {
     display: flex;
+    flex-shrink: 0;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
 }
