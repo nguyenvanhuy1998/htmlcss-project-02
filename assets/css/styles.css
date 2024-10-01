@@ -433,6 +433,7 @@ a {
     background: #2E2100;
     padding: 96px 0;
 }
+
 .list-feedback {
     display: flex;
     overflow: hidden;
@@ -500,4 +501,51 @@ a {
     font-style: italic;
     line-height: 1.53;
     color: #FFFFFF;
+}
+
+/* Features */
+.features {
+    padding: 65px 0;
+    margin-top: 135px;
+}
+
+.features .body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.features .images {
+    display: flex;
+    gap: 30px;
+
+}
+
+.features .images img {
+    width: 270px;
+    height: 404px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.features .images img:first-child {
+    margin-top: 34px;
+}
+
+.features .content {
+    width: 41%;
+}
+
+.features .desc {
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5F5B53;
+
+}
+
+.features .content .cta-btn {
+    margin-top: 32px;
+    min-width: 137px;
+    background: var(--primary-color);
 }
